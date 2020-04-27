@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Tabtab</title>
+
+
+  <link rel="shortcut icon" href="../tabTab/tabTabTop.png"/>
+
+  <link rel="stylesheet" href="./styleAnimation.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./index.css">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-- Fonts -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Righteous">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins">
+
+  <script type="text/javascript" src="./script.js"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<div class="main">
+
+  <div class="top displayHorizontally">
+
+    <h1 class="righteous centerSelf">Tabtab</h1>
+    <nav role="navigation" class="">
+      <ul>
+        <li><a href="#" class="profile">Victor <i class="fa fa-caret-down"></i></a>
+          <ul class="dropdown">
+            <li><a class="opacity80 transitionBold" href="#">log out</a></li>
+            <li><a class="opacity80 transitionBold"href="#">edit profile</a></li>
+          </ul>
+      </ul>
+    </nav>
+
+
+  </div>
+
+  <!-- <div class="savings righteous">
+    CONGRATS! You saved $30 using Tabtab this month
+  </div> -->
+
+  <div class="transition shadow toggle lightGrayBG curveAll displayHorizontally">
+
+    <a onclick="myFunction()" id="myAccounts"
+    class="transitionBold curveLeft flexFour darkGray turqouiseBG alignCenter"href="#">
+      my accounts
+    </a>
+
+    <div onclick="myFunction()" onmouseover="myFunction1()" id="discover"
+    class="transitionBold transitionFlex opacity50 curveRight flexTwo darkGray greenBG alignCenter"href="#">
+      friends
+    </div>
+
+
+
+  </div>
+
+  <div id="friends" class="friends">
+    <a class="shadow friend displayHorizontally curveAll transition" href="addAccount.html">
+      <div class="lightGray firstLetter transparentBG curveLeft centerSelf righteous lightGray">
+        <i class="fa fa-plus"></i>
+      </div>
+
+      <div id="infoTop" class="lightGray info">
+        <h3 class="lightGray">add account!</h3>
+      </div>
+
+    </a>
+    <div class="friend displayHorizontally curveAll transition lightGrayBG">
+      <div class="firstLetter curveLeft darkBlueBG centerSelf righteous lightGray">
+        N
+      </div>
+      <div class="info">
+        <h3>Netflix</h3>
+        <h6>Your account</h6>
+      </div>
+      <div class=" iconFriend centerSelf darkGray">
+        <i class="fa fa-user-circle fa-lg"></i>
+      </div>
+    </div>
+    <div class="friend displayHorizontally curveAll transition lightGrayBG">
+      <div class="firstLetter curveLeft darkBlueBG centerSelf righteous lightGray">
+        H
+      </div>
+      <div class="info">
+        <h3>Hulu</h3>
+        <h6>Tomas' account</h6>
+      </div>
+      <div class="iconFriend centerSelf darkGray">
+        <i class="fa fa-user-circle fa-lg"></i>
+      </div>
+    </div>
+
+  </div>
+
+  <div  id="friends1" class="friends">
+    <a class="shadow friend displayHorizontally curveAll transition" href="#">
+      <div class="lightGray firstLetter transparentBG curveLeft centerSelf righteous lightGray">
+        <i class="fa fa-plus"></i>
+      </div>
+
+      <div id="infoTop" class="lightGray info">
+        <h3 class="lightGray">add friend!</h3>
+      </div>
+
+    </a>
+
+    <div class="friend displayHorizontally curveAll transition lightGrayBG">
+      <div class="firstLetter curveLeft darkBlueBG centerSelf righteous lightGray">
+        S
+      </div>
+      <div class="info">
+        <h3>Santiago</h3>
+        <h6>Netflix, Hulu</h6>
+      </div>
+      <div class=" iconFriend centerSelf darkGray">
+        <i class="fa fa-user-circle fa-lg"></i>
+      </div>
+    </div>
+    <div class="friend displayHorizontally curveAll transition lightGrayBG">
+      <div class="firstLetter curveLeft darkBlueBG centerSelf righteous lightGray">
+        T
+      </div>
+      <div class="info">
+        <h3>Tomas</h3>
+        <h6>Masterclass, Disney+</h6>
+      </div>
+      <div class="iconFriend centerSelf darkGray">
+        <i class="fa fa-user-circle fa-lg"></i>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
+
+
+
+<div id="Clouds">
+  <div class="Cloud Foreground"></div>
+  <div class="Cloud Background"></div>
+  <div class="Cloud Foreground"></div>
+  <div class="Cloud Background"></div>
+  <div class="Cloud Foreground"></div>
+  <div class="Cloud Background"></div>
+  <div class="Cloud Background"></div>
+  <div class="Cloud Foreground"></div>
+  <div class="Cloud Background"></div>
+  <div class="Cloud Background"></div>
+</div>
+
+
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.0/TweenMax.min.js'></script><script  src="./scriptAnimation.js"></script>
+
+</body>
+</html>

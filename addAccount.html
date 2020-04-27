@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Tabtab</title>
+
+
+  <link rel="shortcut icon" href="../tabTab/tabTabTop.png"/>
+
+  <link rel="stylesheet" href="./styleAnimation.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./addAccount.css">
+  <!-- Icons -->
+  <link rel="stylesheet" type="text/css"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+
+  <!-- Fonts -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Righteous">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<div class="main">
+
+  <div class="top displayHorizontally">
+
+    <a href="index.html" class="centerSelf"><i class="transition fa fa-angle-left fa-2x "></i></a>
+
+    <h3>add account</h3>
+
+  </div>
+
+  <div class="form">
+
+    <div class="displayHorizontally transition allRoundBorders">
+      <div class="questionType curveLeft darkBlueBG lightGray righteous">
+        name
+      </div>
+      <input class="curveRight" type="text" placeholder="Account Name">
+    </div>
+
+    <div class="displayVertically transition">
+
+      <div class="usernameField displayHorizontally">
+        <div class="questionType curveTopLeft darkBlueBG lightGray righteous">
+          username
+        </div>
+        <input class="curveTopRight" type="text" placeholder="type here..." name="sup" value="">
+
+      </div>
+      <div class="passwordField displayHorizontally">
+        <div class="questionType curveBottomLeft turqouiseBG lightGray righteous">
+          password
+        </div>
+        <input class="curveBottomRight" type="text" placeholder="type here...*" name="sup" value="">
+      </div>
+
+    </div>
+
+
+    <div class="displayVertically transition">
+      <div class="questionType curveTop darkBlueBG lightGray righteous">
+        description
+      </div>
+      <textarea style="font-style: italic; font-weight: 100;" class="curveBottom" placeholder="example: don't share this with anyone else, 4 sharers max..." maxlength="150" rows="3" cols="80"></textarea>
+    </div>
+
+    <div class="displayVertically transition ">
+      <div class="questionType curveTop darkBlueBG lightGray righteous">
+        split the bill
+      </div>
+
+
+      <div class="greenBG displayHorizontally centerSelf">
+        <i class="iconMix flexOne centerSelf fa fa-dollar-sign fa-2x"></i>
+        <input class="flexSix multipleInputs" type="text" placeholder="account cost" name="sup" value="">
+      </div>
+
+      <!-- <div class="curveBottom transition darkBlueBG displayHorizontally centerSelf ">
+        <i class="iconMix flexOne fa fa-link fa-2x "></i>
+        <input class="flexSix multipleInputs curveBottomRight"type="text" placeholder="send an email invite" name="sup" value="">
+
+      </div> -->
+
+
+      <div class=" selectFriendsParent displayHorizontally curveBottom">
+        <div class="curveBottomLeft iconMix flexOne turqouiseBG centerSelf">
+          <i class="fa fa-users fa-2x"></i>
+
+        </div>
+        <div class="selectFriends alignCenter lightGrayBG curveBottomRight displayHorizontally whiteBG flexSix ">
+
+          <div class="friendBubbleParent displayVertically">
+            <div class="transition friendBubble turqouiseBG alignCenter centerSelf">
+              V
+            </div>
+            <div class="alignCenter friendBubbleName darkGray centerSelf">
+              victor
+            </div>
+          </div>
+
+          <div class="friendBubbleParent displayVertically">
+            <div class="transition friendBubble turqouiseBG alignCenter centerSelf">
+              T
+            </div>
+            <div class="darkGray centerSelf">
+              tomas
+            </div>
+          </div>
+          <div class="friendBubbleParent displayVertically">
+            <div class="transition friendBubble turqouiseBG alignCenter centerSelf">
+              S
+            </div>
+            <div class="darkGray centerSelf">
+              santi
+            </div>
+          </div>
+
+        
+
+          <div class=" friendBubbleParent displayVertically">
+            <div class="transition friendBubble greenBG alignCenter centerSelf">
+              <i class="fa fa-plus"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <div class="curveAll whiteBG displayHorizontally transition allRoundBorders">
+
+      <div class="visibility centerSelf curveLeft displayHorizontally">
+        <div class="lightGray">
+          <p class="">make this account visible to friends</p>
+        </div>
+        <label class="switch">
+          <input type="checkbox" checked>
+          <span class="slider round"></span>
+        </label>
+      </div>
+
+      <div class="centerSelf questionType curveRight turqouiseBG lightGray righteous">
+        access
+      </div>
+    </div>
+
+    <div class="continue transition allRoundBorders">
+      <div class="questionType curveAll darkBlueBG lightGray righteous">
+        continue!
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
+
+
+
+<div id="Clouds">
+  <div class="Cloud Foreground"></div>
+  <div class="Cloud Background"></div>
+  <div class="Cloud Foreground"></div>
+  <div class="Cloud Background"></div>
+  <div class="Cloud Foreground"></div>
+  <div class="Cloud Background"></div>
+  <div class="Cloud Background"></div>
+  <div class="Cloud Foreground"></div>
+  <div class="Cloud Background"></div>
+  <div class="Cloud Background"></div>
+<!--  <svg viewBox="0 0 40 24" class="Cloud"><use xlink:href="#Cloud"></use></svg>-->
+</div>
+
+
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.0/TweenMax.min.js'></script><script  src="./scriptAnimation.js"></script>
+
+</body>
+</html>

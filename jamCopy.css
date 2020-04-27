@@ -1,0 +1,93 @@
+.profile, ul li ul a, nav {
+  transition: 300ms;
+}
+
+.profile:hover, ul li ul a:hover {
+  text-shadow: 1px 1px 3px gray;
+}
+
+li {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  min-width: 6rem;
+  position: absolute;
+  transition: all 0.3s ease;
+  right: 0;
+  display: none;
+  text-align: right;
+  font-size: .9em;
+  border-radius: 5px;
+}
+
+ul li:hover>ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  background: transparent;
+
+}
+
+.topButtons > * {
+  width: 45%;
+  height: 8em;
+  margin-top:20px;
+  border: 7px solid white;
+  background: #F6F2FC;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.toggle {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.toggle > * {
+  padding: 10px 0px 10px 0px;
+}
+
+.toggle > *:hover {
+  opacity:100;
+}
+
+
+.savings {
+  margin: 30px 0px 15px 0px;
+  text-align: center;
+}
+
+.friend {
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.firstLetter {
+  background: blue;
+  font-size: 40px;
+  width: 55px;
+}
+
+.info {
+  width:67%;
+  padding: 7px 0px 7px 25px;
+}
+
+.info h6 {
+  font-style: italic;
+}
+
+.iconFriend {
+  padding-right: 1em;
+}
+
+.info > * {
+  margin: 0px;
+  padding: 0px;
+}

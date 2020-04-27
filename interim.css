@@ -1,0 +1,61 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 80px;
+  /* background: linear-gradient(to bottom right, #97DB4F, #058BBF); */
+}
+
+.comingSoon {
+  font-weight: 100;
+  opacity: 70%;
+  margin-top: 15px;
+}
+
+.subHead {
+  margin-bottom: 25px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.mainInterim {
+  display: flex;
+  min-height: 397px;
+  flex-direction: column;
+  width: 35vw;
+  min-width: 430px;
+  margin: auto;
+  padding-top: 35vh;
+  flex-shrink: 0;
+}
+
+.curveMore {
+  border-radius: 17px;
+}
+
+.transitionInterim {
+  cursor: pointer;
+}
+
+.transitionInterim:hover {
+  transform: translate(0, -3px);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.submit > *{
+  padding: 10px;
+}
+
+
+.lol {
+  min-width: 8em;
+}
+
+.lol:hover, .lol:focus {
+  flex: 2;
+}

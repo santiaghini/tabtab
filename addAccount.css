@@ -1,0 +1,131 @@
+.form > * {
+  margin-top: 30px;
+}
+
+.questionType {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.passwordField .questionType, .usernameField .questionType {
+  width: 140px;
+}
+
+textarea, .multipleInputs, .visibility, .selectFriends {
+  padding: 17px;
+}
+
+textarea {
+  resize: none;
+}
+
+.continue {
+  margin-bottom: 30px;
+}
+
+.visibility {
+  padding-left: 15px;
+}
+
+.visibility p {
+  font-size: 11px;
+}
+
+
+
+/* switch */
+
+.switch {
+  margin-left: 28px;
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 17px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(13px);
+  -ms-transform: translateX(13px);
+  transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 8.5px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.selectFriendsParent {
+  min-height: 100px;
+}
+
+.selectFriends {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0px 0px 0px ;
+  transition: 0.3s;
+}
+
+.friendBubbleParent {
+  margin: 15px;
+  align-items: center;
+}
+
+.friendBubble {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 4px solid black;
+}
+
+.friendBubbleName {
+  max-width: 70px;
+}
+
+.iconMix {
+  max-width: 13%;
+}

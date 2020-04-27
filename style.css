@@ -1,0 +1,277 @@
+
+/* created classes */
+html, body {
+  max-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+*:focus {
+  outline: none;
+}
+
+
+button {
+  background: none;
+  border: none;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+* {
+  transition: 300ms ease;
+}
+
+.displayHorizontally {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px;
+  transition: 0.3s;
+}
+
+.displayVertically {
+  display: flex;
+  flex-direction: column;
+}
+
+.centerSelf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.height100 {
+  height: 100%;
+}
+
+.opacity90 {
+  opacity: 90%;
+}
+.opacity80 {
+  opacity: 80%;
+}
+.opacity70 {
+  opacity: 70%;
+}
+.opacity60 {
+  opacity: 60%;
+}
+.opacity50 {
+  opacity: 50%;
+}
+.opacity40 {
+  opacity: 40%;
+}
+
+.flexOne {
+  flex: 1;
+}
+.flexTwo {
+  flex: 2;
+}
+.flexThree {
+  flex: 3;
+}
+.flexFour {
+  flex: 4;
+}
+.flexFive {
+  flex: 5;
+}
+.flexSix {
+  flex: 6;
+}
+.transparentBG{
+  background: none;
+}
+.whiteBG {
+  background: white;
+}
+.darkGrayBG {
+  background: #4D5359;
+}
+.lightGrayBG {
+  background: #F6F2FC;
+}
+.darkBlueBG {
+  background: #058BBF;
+}
+.turqouiseBG {
+  background: #31C2C2;
+}
+.greenBG {
+  background: #97DB4F;
+}
+.transparent{
+  color: none;
+}
+.lightGray {
+  color: #F6F2FC;
+}
+.darkGray {
+  color: #4D5359;
+}
+.darkBlue {
+  color: #058BBF;
+}
+.turqouise {
+  color: #31C2C2;
+}
+.green {
+  color: #97DB4F;
+}
+
+.curveAll {
+  border-radius: 7px;
+}
+.curveRight {
+  border-radius: 0px 7px 7px 0px;
+}
+.curveLeft {
+  border-radius: 7px 0px 0px 7px;
+}
+.curveTop {
+  border-radius: 7px 7px 0px 0px;
+}
+.curveBottom {
+  border-radius: 0px 0px 7px 7px;
+}
+.curveTopLeft {
+  border-top-left-radius: 7px;
+}
+.curveTopRight {
+  border-top-right-radius: 7px;
+}
+.curveBottomLeft {
+  border-bottom-left-radius: 7px;
+}
+.curveBottomRight {
+  border-bottom-right-radius: 7px;
+}
+
+.righteous {
+  font-family: Righteous, sans-serif;
+}
+
+
+input, textarea {
+  flex: 1;
+  border: none;
+  padding-left: 10px;
+}
+
+input:focus {
+  outline:none;
+}
+
+input::placeholder {
+  font-weight: 100;
+}
+
+input:focus::placeholder {
+  color:transparent;
+}
+
+.light {
+  font-weight: 100;
+}
+
+.transitionFlex {
+  transition: 300ms ease;
+}
+
+.transitionFlex:hover {
+  flex:2;
+}
+
+.transitionBold:hover{
+  font-weight: bold;
+  opacity: 100%;
+}
+
+.transition {
+  cursor: pointer;
+}
+
+.transition:hover {
+  transform: translate(0, -3px);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+}
+
+.transitionNoCurve {
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.transitionNoCurve:hover {
+  transform: translate(0, -3px);
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 0px 0px 7px 7px;
+}
+
+/* general styling for entire document */
+
+* {
+  font-family: Poppins, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  color: #4D5359;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, li {
+  color: inherit;
+  list-style: none;
+}
+
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  display: flex;
+  min-height: 397px;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+  padding-top: 30px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 400px) {
+  .main {
+    min-width: calc(100vw - 30px);
+  }
+
+}
+
+.fullWidth {
+  width: 100%;
+}
+.alignCenter {
+  text-align: center;
+}
+
+.shadow {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* everything above the buttons */
+
+.top h1 {
+  font-size: 40px;
+  margin: 0px;
+}
+
+.top > *, .top i {
+  color: white;
+}
